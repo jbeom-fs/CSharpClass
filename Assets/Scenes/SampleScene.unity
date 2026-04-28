@@ -396,6 +396,8 @@ GameObject:
   - component: {fileID: 572347052}
   - component: {fileID: 572347051}
   - component: {fileID: 572347055}
+  - component: {fileID: 572347056}
+  - component: {fileID: 572347057}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -503,11 +505,35 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 572347050}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48b984465fc1a404f837827b6bd2ddd4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SyntaxDemo
+--- !u!114 &572347056
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 572347050}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c4bc1e7588e38f4a8841f55ee37e3b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::VariableDemo
+--- !u!114 &572347057
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 572347050}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7890d6fe7bd0cd64fbec2e1911228957, type: 3}
+  m_Script: {fileID: 11500000, guid: 5c04cc869effe564bb730fb504ad2cb2, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::HelloPractice
+  m_EditorClassIdentifier: Assembly-CSharp::IntegerDemo
 --- !u!1 &832575517
 GameObject:
   m_ObjectHideFlags: 0
